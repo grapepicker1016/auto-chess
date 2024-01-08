@@ -6,7 +6,7 @@ pygame.init()
 
 WINDOW_SIZE = (600, 600)
 screen = pygame.display.set_mode(WINDOW_SIZE)
-os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = 'datanexus-397521-57a5a62691c0.json'
+os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = ''
 board = Board(WINDOW_SIZE[0], WINDOW_SIZE[1])
 
 def draw(display):
